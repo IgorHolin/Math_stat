@@ -10,7 +10,7 @@ def find_a():
     b = factorial(52)/(factorial(4) * factorial(52-4))
     return a/b*100
 
-print(f'{find_a()}%')
+print(f'{round(find_a(),4)}%')
 
 
 """
@@ -22,6 +22,6 @@ def find_b():
     c = factorial(4)/(factorial(1) * factorial(4-1))
     return (a*c)/b*100
 
-print(f'{find_b()}%')
+print(f'{round(find_b(),4)}%')
 
 
